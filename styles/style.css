@@ -41,6 +41,7 @@ h1 {
 
 button{
     font-family: 'Fugaz One', cursive;
+    font-size: 2em;
 }
 
 .sideBar {
@@ -74,3 +75,4 @@ button{
     grid-row: 5/7;
     grid-column: 4/5;
 }
+
