@@ -1,24 +1,56 @@
+body{
+    background: #F0F0F0 ;
+    text-align: center;
+    font-family: 'Damion', cursive;
+    
+}
+h1 {
+    font-size: 3em;
+}
 .container{
+    border: 4px solid black;
+    font-family: 'Fugaz One', cursive;
     display:grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 2fr 1.8fr;
     width: 700px;
-    height: 500px;
+    height: 550px;
     max-width: 700px;
-    max-height: 500px;
+    max-height: 550px;
+    background-color: #2D2D2D;
+    margin: auto;
+}
+.backspace{
+    font-size: 2em;
 }
 
+.enter, .clear {
+    font-size: 1.5em;
+}
 
+.add, .subtract, .multiply, .divide {
+    background-color: #FB7F1E ;
+    font-size: 2em;
+}
 .calculator{
+    border: solid 4px black;
     display:grid;
+    grid-gap: 4px;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(6, 1fr);
 }
 
+button{
+    font-family: 'Fugaz One', cursive;
+}
+
 .sideBar {
+    font-size: 1.5em;
     background-color: grey;
     text-align: right;
     padding: 1em;
     overflow-y: auto;
+    color: white;
+    text-align: center;
 }
 
 .sideBarHeader{
@@ -26,6 +58,8 @@
 }
 
 .display{
+    font-size: 1.55em;
+    color: white;
     grid-column: 1/5;
     text-align: right;
     align-self: center;
